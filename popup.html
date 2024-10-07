@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Extension</title>
+    <link rel="stylesheet" href="style.css" />  
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-area">
+        <div class="search-area-container">
+          <input
+            type="text"
+            id="inputarea"
+            autocomplete="off"
+            placeholder="Enter a Prompt here"
+          />
+          <button id="submit-btn" class="search-btn">
+            <img src="images/arrow-up-line.png" alt="search" />
+          </button>
+        </div>
+      </div>
+      
+      <div class="result-area-container">
+        <div class="result-area">
+          <div class="landing-page-container">
+           <div class="landing-page">
+            Welcome to @ Ai !!! 
+           </div>
+          </div>
+         <div class="get-data">
+          <div class="display-input-data">
+            <img src="images/profile.png" alt="ai img"/>
+            <div id="input-data"></div>
+           </div>
+            <div class="result-area-contant-container" id="result-area-contant-show">
+              <img src="images/at (4).png" alt="search" />
+              <div  id="result-area-contant">
+               </div>
+            </div>
+         </div>
+        </div>
+      </div>
+      <div class="header-container">
+        <div class="header">
+          <div class="header-logo">
+            <img src="/images/at (2).png"/>
+          </div>
+          <div>
+            <div class="dropdown">
+                <img src="/images/profile.png" alt="profile" id="dropdown-btn" class="dropbtn" />
+              <!-- <div id="profileDropdown" class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Dark</a>
+                <a href="#">Sign Out</a>
+              </div> -->
+            </div
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

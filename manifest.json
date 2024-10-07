@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "@ Ai",
+  "version": "1.0",
+  "description": "Make your prompts more personal with @ Ai",
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/at.png",
+      "48": "images/at (2).png",
+      "128": "images/at (4).png"
+    }
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+
+  "icons": {
+    "16": "images/at.png",
+    "48": "images/at (2).png",
+    "128": "images/at (4).png"
+  }
+}
